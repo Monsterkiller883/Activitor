@@ -19,7 +19,7 @@
 ::========================================================================================================================================
 
 :: Re-launch the script with x64 process if it was initiated by x86 process on x64 bit Windows
-:: or with ARM64 process if it was initiated by x86/ARM32 process on ARM64 Windows
+:: or with ARM64 process if it was initiated by x86/ARM32 process on ARM64 Windows (32bit & 64bit)
 
 set "_cmdf=%~f0"
 for %%# in (%*) do (
