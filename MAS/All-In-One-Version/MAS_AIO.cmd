@@ -1,25 +1,17 @@
 @setlocal DisableDelayedExpansion
 @echo off
 
-::  For command line switches, check https://massgrave.dev/command_line_switches.html
-::  If you want to better understand script, read from MAS separate files version. 
-
+Special Thanks : WindowsAddict
 ::============================================================================
 ::
 ::   This script is a part of 'Microsoft_Activation_Scripts' (MAS) project.
 ::
-::   Homepage: massgrave.dev
-::      Email: windowsaddict@protonmail.com
+::   Homepage: Not yet
+::      Active Dev: King
 ::
 ::============================================================================
 
-
-
-
 ::========================================================================================================================================
-
-:: Re-launch the script with x64 process if it was initiated by x86 process on x64 bit Windows
-:: or with ARM64 process if it was initiated by x86/ARM32 process on ARM64 Windows (32bit & 64bit)
 
 set "_cmdf=%~f0"
 for %%# in (%*) do (
